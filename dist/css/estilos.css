@@ -16,6 +16,7 @@ body {
 .container-fluid {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /* Navbar */
@@ -59,10 +60,15 @@ body {
 
 /* Carousel */
 
+.carousel {
+    width: 100%;
+}
+
 /* Primera foto */
 .mi-div{ 
     background-image: url("../img/unsplash_m-jJ4wLjoIc.png");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 960px;
     height: 823px;
     position: relative;
@@ -72,6 +78,7 @@ body {
 .mi-div-dos{
     background-image: url("../img/unsplash_75xPHEQBmvA.png");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 960px;
     height: 823px;
     position: relative;
@@ -121,7 +128,6 @@ body {
 
 .carousel-indicators li {
     background-color:#EAEAEA;
-    /* background-image: url('../img/Ellipse 34.png'); */
     border-radius: 1rem;
     display: inline-block;
     height: 10px;
@@ -218,13 +224,9 @@ body {
     color: #484848;
 }
 
-.accordion {
-    background-image: url('../img/unsplash_fYO1T495QCM.png');
-
-  }
-
 /* Fin accordion */
 
+/* bloque naranja */
 .bloque {
     background: #FB6834;
     height: 351px;
@@ -292,5 +294,107 @@ body {
     position: relative;
     top: 10px;
 }
+/* Fin bloque naranja */
+
+/* Bloque con form */
+
+.text8 {
+    position: relative;
+    top: 66px; 
+    left: 608px;
+}
+
+.text8 input {
+    box-sizing: border-box;
+    width: 705px;
+    height: 40px;
+    border: 1px solid #484848;
+}
+
+.text8 input::placeholder, .text8 textarea::placeholder{
+    color: #484848;
+}
+
+.text8 textarea {
+    width: 705px;
+    height: 143px;
+    box-sizing: border-box;
+    border: 1px solid #484848;
+
+}
+
+.span3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #484848;
+    margin-bottom: 10px;
+}
+
+.text8 a {
+    position: relative;
+    padding: 1.2rem 10rem;
+    left: 303px;
+    top: 20px;
+    background: #484848;
+}
+
+.text8 a span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+/* Fin bloque con form */
+
+/* Bloque gris con rrss */
+
+.bloque3 {
+    background: #484848;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    height: 402px;
+}
+
+.logo {
+    position: relative;
+    top: 55px;
+    left: 318px;
+}
+
+.bloquetext {
+    position: relative;
+    left: 700px;
+    bottom: 130px;
+}
+
+.bloquetext span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 108px;
+}
+
+.rrss {
+    position: relative;
+    bottom: 56px;
+    left: 1120px;
+}
+.rrss ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+}
+/* Fin bloque gris */
+
 
 
