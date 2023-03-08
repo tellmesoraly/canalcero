@@ -29,7 +29,6 @@ body {
 #items ul li{
     display: inline-block;
     text-align: center;
-    margin-right: 12px;
     margin-top: 20px;
 }
 
@@ -424,82 +423,25 @@ body {
 
 /* Responsive */
 
-@media (max-width: 1366px) {
-
-    .car{
-        width: 100%;
-    }
-
-    #icons ul li{
-      padding: 0px 5px;
-      position: relative;
-      left: 110px;
-    }
-
-    #items ul li{
-        display: inline-block;
-        text-align: center;
-        margin-top: 20px;
-        position: relative;
-        left: 180px;
-    }
+@media (max-width: 1920px) {
 
     .text1 {
         position: relative;
-        left: 400px;
+        left: 550px;
+        width: 570px;
+        top: 425px;
     }
 
     .text2 {
         position: relative;
-        left: 425px;
-    }
-
-    .text3, .text5 {
-        position: relative;
-        top: 80px; 
-        left: 70px;
+        left: 420px;
+        width: 570px;
+        top: 425px;
     }
 
     .photomontain {
         position: relative;
-        left: 90px;
-    }
-
-    .text6 {
-        position: relative;
-        left: 180px;
-        width: 550px;
-        top: 215px;
-    }
-
-    .text7 {
-        position: relative;
-        top: 127px;
-        left: 100px;
-    }
-
-    .text8 {
-        position: relative;
-        top: 66px; 
-        left: 400px;
-    }
-
-    .logo {
-        position: relative;
-        top: 15px;
-        left: 10px;
-    }
-
-    .bloquetext{
-        position: relative;
-        left: 490px;
-        bottom: 130px;
-    }
-
-    .rrss {
-        position: relative;
-        bottom: 40px;
-        left: 920px;
+        left: 260px;
     }
 }
 
@@ -574,25 +516,91 @@ body {
     
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1366px) {
+
+    .carsouelphotos{
+        width: 100%;
+    }
+
+    .mi-div, .mi-div-dos {
+        width: 100%;
+    }
+
+    #icons ul li{
+      padding: 0px 5px;
+      position: relative;
+      left: 110px;
+    }
+
+    #items ul li{
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+        position: relative;
+        left: 80px;
+        padding: 0px;
+    }
 
     .text1 {
         position: relative;
-        left: 590px;
-        width: 800px;
-        top: 425px;
+        left: 400px;
+        width: 550px;
+        top: 435px;
     }
 
     .text2 {
         position: relative;
-        left: 545px;
-        width: 800px;
-        top: 425px;
+        left: 410px;
+        width: 550px;
+        top: 435px;
+    }
+
+    .text3, .text5 {
+        position: relative;
+        top: 80px; 
+        left: 70px;
     }
 
     .photomontain {
         position: relative;
-        left: 305px;
+        left: 125px;
+    }
+
+    .text6 {
+        position: relative;
+        left: 180px;
+        width: 550px;
+        top: 215px;
+    }
+
+    .text7 {
+        position: relative;
+        top: 127px;
+        left: 100px;
+    }
+
+    .text8 {
+        position: relative;
+        top: 66px; 
+        left: 400px;
+    }
+
+    .logo {
+        position: relative;
+        top: 55px;
+        left: 150px;
+    }
+
+    .bloquetext{
+        position: relative;
+        left: 490px;
+        bottom: 130px;
+    }
+
+    .rrss {
+        position: relative;
+        bottom: 40px;
+        left: 920px;
     }
 }
 
