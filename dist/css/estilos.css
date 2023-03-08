@@ -230,24 +230,18 @@ body {
 
 .accordion {
     width: 701px;
-    background-color: transparent !important;
-}
-
-.accordion-button:not(.collapsed) {
-    color: #FB6834;
-    background-color: transparent !important;
-    /* background-image: url('../img/unsplash_fYO1T495QCM.png'); */
-    
 }
 
 .accordion-item {
     background-color: transparent !important;
 }
+
+.accordion-button:not(.collapsed) {
+    color: #FB6834;
+}
+
 .accordion-button{   
     border-bottom: solid #FB6834;
-    /* background-image: url('../img/unsplash_fYO1T495QCM.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: transparent !important;
 }
 
